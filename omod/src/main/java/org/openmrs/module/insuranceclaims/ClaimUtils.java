@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 public final class ClaimUtils {
-
+	
     public static Map<String, List<InsuranceClaimItem>> getInsuranceClaimItemsAsMap(List<InsuranceClaimItem> items) {
         HashMap<String, List<InsuranceClaimItem>> itemMapping = new HashMap<>();
         for (InsuranceClaimItem item: items) {
